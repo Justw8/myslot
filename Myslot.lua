@@ -16,6 +16,7 @@ local MYSLOT_VER = 42
 -- TWW Beta Compat code (fix and cleanup below later)
 local GetNumSpellTabs = C_SpellBook and C_SpellBook.GetNumSpellBookSkillLines or GetNumSpellTabs
 local GetSpellTabInfo = C_SpellBook and C_SpellBook.GetSpellBookSkillLineInfo or GetSpellTabInfo
+local GetSpellBookItemInfo = C_SpellBook and C_SpellBook.GetSpellBookItemType or GetSpellBookItemInfo
 local PickupSpell = C_Spell and C_Spell.PickupSpell or PickupSpell
 local PickupItem = C_Item and C_Item.PickupItem or PickupItem
 local GetSpellInfo = C_Spell and C_Spell.GetSpellName or GetSpellInfo
